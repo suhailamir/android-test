@@ -8,19 +8,32 @@
 
     <!--<TextView android:text="@string/hello_world" android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content" />-->
-    <EditText android:id="@+id/edit_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_message"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-    <Button
-        android:id="@+id/btnShowMessage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_send"
-        android:layout_below="@+id/edit_message"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="58dp"
-        />
+    <!--<EditText android:id="@+id/edit_message"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="@string/edit_message"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btnShowMessage"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button_send"-->
+        <!--android:layout_below="@+id/edit_message"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="58dp"-->
+        <!--/>-->
+    <!--<ListView-->
+        <!--android:id="@+id/list"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:textColor="#ff7d87ff">-->
+    <!--</ListView>-->
+    <ListView android:paddingTop="15dip" android:paddingBottom="15dip"
+        android:layout_width="fill_parent" android:paddingLeft="15dip"
+        android:layout_height="wrap_content" android:id="@+id/list"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true" android:paddingRight="15dip"
+        android:background="#ff8359ff"  >
+    </ListView>
 </RelativeLayout>
