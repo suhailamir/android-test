@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="ba6931a6-4d69-4a72-bcc0-b72674caf4f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/suhail/myapplication/MyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/suhail/myapplication/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="android-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,12 +36,11 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/suhail/myapplication/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.46460176">
-              <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
               <folding>
-                <element signature="e#1174#1340#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#3851#4124#0" expanded="true" />
-                <element signature="e#4123#4124#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2668#2941#0" expanded="true" />
+                <element signature="e#2940#2941#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1732,7 +1729,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -1747,12 +1746,11 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/suhail/myapplication/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46460176">
-          <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
           <folding>
-            <element signature="e#1174#1340#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#3851#4124#0" expanded="true" />
-            <element signature="e#4123#4124#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2668#2941#0" expanded="true" />
+            <element signature="e#2940#2941#0" expanded="true" />
           </folding>
         </state>
       </provider>
