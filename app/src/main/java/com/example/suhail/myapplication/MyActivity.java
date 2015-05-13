@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -34,27 +33,14 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
-        final EditText editText = (EditText) findViewById(R.id.edit_message);
+//        final EditText editText = (EditText) findViewById(R.id.edit_message);
         Button btnSubmit = (Button) findViewById(R.id.btnShowMessage);
-
-
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
-//                TestAndroid testAndroid = new TestAndroid();
-//                testAndroid.setAge(20);
-                GetServerData request = new GetServerData();
                 new GetServerData().execute();
-//                request.doInBackground();
-
-
             }
         });
-//        btnSubmit.setOnClickListener()
-
-        // Do something in response to button
 
     }
 
@@ -82,11 +68,8 @@ public class MyActivity extends Activity {
 
 
     private class GetServerData extends AsyncTask<Void, Void, String> {
-
         @Override
         protected String doInBackground(Void... params) {
-//            Toast.makeText(getApplicationContext(), "API Call Initiated", Toast.LENGTH_LONG).show();
-
             final TestAndroid testAndroid;
             try {
                 String SERVER_URL = "http://bridg-dev.cloudapp.net:8080/testandroid";
